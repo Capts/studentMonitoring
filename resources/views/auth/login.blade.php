@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+                <div class="panel-heading" style="background-color:#27ae60;color:white;font-family: 'Open Sans', sans-serif;font-size:21px;">Login</div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
@@ -68,5 +68,5 @@
         </div>
     </div>
 </div>
- <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br>
+ <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br>
 @endsection

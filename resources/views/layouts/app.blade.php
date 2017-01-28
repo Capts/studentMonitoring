@@ -2,7 +2,7 @@
 <html lang="en">
 
 @include('partials._head')
-<body>
+<body style="background-color:  #ECF0F1;height:auto;">
     @include('partials._nav')
     
             @yield('content')

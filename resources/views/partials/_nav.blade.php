@@ -1,6 +1,6 @@
-<div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
+<div id="app" >
+        <nav class="navbar navbar-default navbar-static-top" style="background-color:#27ae60;">
+            <div class="container" >
                 <div class="navbar-header" style="height: 115px;">
 
                     <!-- Collapsed Hamburger -->
@@ -14,8 +14,8 @@
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
                         <!-- {{ config('app.name', 'Laravel') }} -->
-                        <img src="/img/pic/logo.png" alt="" style="height: 60px;width: 400px;">
-                        <h4 class="title1">Student Information and Performance Monitoring</h4>
+                        <img src="/img/pic/logo.png" alt="" style="height: 60px;width: 280px;">
+                        <h4 class="title1" style="color:#f2f2f2;font-family: 'Poppins', sans-serif;">Student Information & Performance Monitoring</h4>
                     </a>
                 </div>
 
@@ -33,7 +33,7 @@
                             <!-- <li><a href="{{ url('/register') }}">Register</a></li> -->
                         @else
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="margin-top:25px;font-size:20px;border:1px solid silver;">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="margin-top:25px;font-size:20px;border:1px solid white;color: white;" >
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 

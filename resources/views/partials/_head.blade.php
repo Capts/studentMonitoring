@@ -10,15 +10,19 @@
 
     <title>SIPM - CITCS @yield('title')</title>
 
+
       <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
         <!-- <link rel="stylesheet" href="assets/demo.css"> -->
         <link rel="stylesheet" href="css/sidebar-left.css">
+        <link rel="stylesheet" href="css/profile.css">
 
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-      
+      <link rel="stylesheet" href="js/tab.js">
 
         <!-- Styles -->
         <style>

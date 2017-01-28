@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('profile', 'PagesController@getProfile');
+Route::get('monitoring', 'PagesController@getMonitoring');
 
 Auth::routes();
 
